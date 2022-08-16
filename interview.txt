@@ -1,0 +1,18 @@
+1> How to get a data from query parameter ?
+=>  res.send(`
+     <input type="text" value="${req.query.name}">,
+     <a href="/About">About</a>
+    `);
+ });
+
+ +req.query.name
+
+ app.get('',(req,res)=>{
+    console.log("Data sent threw Browser By",req.query.name)
+    res.send('Welcome, '+req.query.name);
+
+2> Use of Path Module ?
+=> path of your current project folder
+
+3> work of static method ?
+=> static method is load a static file of your project
