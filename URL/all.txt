@@ -1,0 +1,4 @@
+Apply get method
+remove an extension from url
+Make 404 page
+Apply 404 page
