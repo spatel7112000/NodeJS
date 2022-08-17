@@ -1,0 +1,23 @@
+What are Middlewares
+How to make a Middleware
+Apply Middleware on Routes
+4) Type of Middleware
+=>  Application level Middleware
+    Router level Middleware
+    Error Handling Middleware
+    Built-in Middleware
+    Third Party Middleware
+
+Middleware is used in req,resp of check a data is correct or not and authenticate a data
+
+==>Application level Middleware
+        By Default apply on all route(Apply Globally)
+ex: app.get("/about", (req, resp) => {
+  resp.send("Welcome to about the World");
+});
+
+==>Router level Middleware
+        apply on particular route or Globally Apply
+ex: route.get("/user", (req, resp) => {
+  resp.send("Welcome to the user World");
+});
