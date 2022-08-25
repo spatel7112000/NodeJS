@@ -1,0 +1,22 @@
+What is synchronous ?
+=> in synchronous operation task are performed one at a time
+
+Users               Products               Cities
+ex: PHP
+
+What is Asynchronous ?
+=> in Asynchronous , Second task do not Wait to Finish First Task
+
+        Users
+                        Products
+                                        Cities
+ex: JAVASCRIPT, NODEJS
+ 
+What is Call Stack ?
+=> This is a Register of all the Function or Task before the execution of the program.
+Call stack work as a one by one According to a Task.
+
+What is NODE APIs ?
+=> A Function or something Which relate to C, C++ language is first step is assigned to the NODE APIs. 
+
+

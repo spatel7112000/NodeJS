@@ -1,0 +1,7 @@
+how to open a file with process.argument variable     
+node .\Commandline\CL.js .\Commandline\create.js bhai
+                             filename             input 
+
+how to open a file with process.argument variable     
+node .\Commandline\CL.js remove .\Commandline\create.js
+                             filename          
