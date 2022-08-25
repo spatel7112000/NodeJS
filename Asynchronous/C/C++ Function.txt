@@ -1,0 +1,75 @@
+C / C++ Function
+
+console.log("Hello THere");
+
+setTimeout(()=>{
+        console.log("Here 2 Sec Delay");
+    },2000)
+
+setTimeout(()=>{
+        console.log("Here 0 Sec Delay");
+    },0)
+
+console.log("Hello There");
+
+
+
+// Process
+
+Step 1
+
+Call Stack  => main() //already There
+Node API  => register to NODE API
+                setTimeout 2 sec
+Callback Queue  => Callback Queue
+
+O/P: Hello THere
+
+Step 2
+
+Call Stack  => main() //already There
+Node API  => register to NODE API
+                setTimeout 2 sec
+                setTimeout 0 sec
+Callback Queue  => Callback Queue
+
+O/P: Hello There
+
+Step 3
+
+Call Stack  => main() //already There
+Node API  => register to NODE API
+                setTimeout 2 sec
+Callback Queue  => Callback Queue
+                setTimeout 0 sec
+
+O/P: 
+        Hello THere
+        Hello There
+
+Step 4
+
+Call Stack  => setTimeout 0 sec
+Node API  => register to NODE API
+Callback Queue  => Callback Queue
+                setTimeout 2 sec
+                
+
+O/P: 
+        Hello THere
+        Hello There
+        Here 0 Sec Delay
+
+Step 5
+
+Call Stack  => setTimeout 2 sec
+Node API  => register to NODE API
+Callback Queue  => Callback Queue
+                
+
+O/P: 
+        Hello THere
+        Hello There
+        Here 0 Sec Delay
+        Here 2 Sec Delay
+

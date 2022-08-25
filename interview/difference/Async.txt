@@ -1,0 +1,7 @@
+NodeJS is Async Language
+
+1. Run First Script
+2. Run Second Script (Complex Data)
+       --- It will not Wait to Finish 2nd Script ---
+3. Run Third Script
+4. Continue....

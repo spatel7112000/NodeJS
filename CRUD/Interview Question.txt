@@ -1,0 +1,2 @@
+What is Buffer ?
+A Buffer is a Temporary Memory Location.
